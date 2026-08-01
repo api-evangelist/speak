@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on Speak public + API hosts
+hosts:
+- host: https://www.speak.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: speak-openid-configuration.json
+  - path: /.well-known/jwks.json
+    status: 200
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://speak.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: speak-security.txt
+- host: https://api.usespeak.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+  - path: /.well-known/jwks.json
+    status: 200
+    file: speak-jwks.json
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://usespeak.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+notes: >-
+  The OpenID Connect discovery document served from www.speak.com points to
+  issuer https://api.usespeak.com with token endpoint /v1/auth/token and a
+  published JWKS. security.txt is served from the apex speak.com and usespeak.com
+  (canonical https://speak.com/.well-known/security.txt). No api-catalog or
+  ai-plugin.json is published.

@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.speak.com/.well-known/openid-configuration
+docs: https://api.usespeak.com/.well-known/openid-configuration
+summary:
+  types:
+  - oauth2
+  - openIdConnect
+  api_key_in: []
+  oauth2_flows: []
+  notes: >-
+    Derived from the provider's published OpenID Connect discovery document, not
+    from a public OpenAPI spec (Speak does not publish one). The Speak API is an
+    OAuth2/OIDC issuer serving the app clients; no scope reference, grant-type
+    list, or authorization endpoint is publicly documented, so flows are not
+    enumerated here.
+schemes:
+- name: openIdConnect
+  type: openIdConnect
+  issuer: https://api.usespeak.com
+  token_endpoint: https://api.usespeak.com/v1/auth/token
+  jwks_uri: https://api.usespeak.com/.well-known/jwks.json
+  signing_algs:
+  - RS256
+  sources:
+  - well-known/speak-openid-configuration.json

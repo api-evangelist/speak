@@ -1,0 +1,45 @@
+# Speak - The language learning app that gets you speaking
+
+> Speak is the first & only app that lets you get real conversational practice without needing a live tutor on the other end. We build advanced AI tech to make instant feedback and natural conversation possible.
+
+## Core Navigation
+- [Home](https://www.speak.com/) - Main website and feature overview.
+- [Blog](https://www.speak.com/blog) - Articles on language learning and AI technology.
+- [Careers](https://www.speak.com/careers) - Open roles at Speakeasy Labs.
+- [Download](https://www.speak.com/download) - App download options for all devices.
+- [Install](https://www.speak.com/install) - Direct installation instructions for the Speak app.
+- [Gift Speak](https://www.speak.com/gift) - Purchase Speak as a gift for others.
+
+## Business & B2B (Global)
+- [B2B Global](https://www.speak.com/b2b) - Language training for organizations and teams.
+- [B2B Korea](https://www.speak.com/ko/b2b) - Speak for Business (한국어).
+- [B2B Japan](https://www.speak.com/jp/b2b) - Speak for Business (日本語).
+- [B2B Spain](https://www.speak.com/es/b2b) - Speak for Business (Español).
+- [B2B Taiwan](https://www.speak.com/tw/b2b) - Speak for Business (繁體中文).
+- [B2B France](https://www.speak.com/fr/b2b) - Speak for Business (Français).
+
+## Language Regions
+- [한국어 (Korea)](https://www.speak.com/ko)
+- [日本語 (Japan)](https://www.speak.com/jp)
+- [Español (Spain/LatAm)](https://www.speak.com/es)
+- [繁體中文 (Taiwan)](https://www.speak.com/tw)
+- [简体中文 (China)](https://www.speak.com/cn)
+- [Português (Brazil)](https://www.speak.com/pt-br)
+- [Français (France)](https://www.speak.com/fr)
+- [Deutsch (Germany)](https://www.speak.com/de)
+
+## Get Started & App Stores
+- [Get Started](https://app.speak.com/us-en/try?showOnboarding) - Start the onboarding and trial process.
+- [Sign Up on Web](https://app.speak.com) - Access the Speak web platform.
+- [Apple App Store](https://apps.apple.com/us/app/speak-language-learning/id1286609883) - Download for iOS.
+- [Android Play Store](https://play.google.com/store/apps/details?id=com.selabs.speak) - Download for Android.
+
+## Support & Resources
+- [FAQ & Help Center](https://help.speak.com/en/) - Detailed guides and troubleshooting.
+- [Waitlist](https://docs.google.com/forms/d/e/1FAIpQLSeqbkoPYtWLVqnh-qAsG6Wrvy90AQH1qorylIohk6gczlMiVQ/viewform) - Sign up for requested languages.
+- [Password Recovery](https://app.speak.com/us-en/forgot-password) - Reset your account password.
+- [Instagram](https://www.instagram.com/speak_official) - Follow our community updates.
+
+## Legal
+- [Privacy Policy](https://usespeak.notion.site/Speak-s-Privacy-Policy-29b9293ddabc48bcb1b059bc84e8f490)
+- [Terms of Service](https://usespeak.notion.site/Speak-s-Terms-of-Service-5a9643bc1e774a76afb1930abec99f39)

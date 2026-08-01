@@ -1,7 +1,32 @@
 aid: speak
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speak.png
 name: Speak
-description: 'Speak is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Speak (Speakeasy Labs, Inc.) is an AI-powered language learning application
+  focused on spoken fluency rather than grammar drills or vocabulary
+  memorization. Its proprietary "Speak Method" has learners study real phrases,
+  practice them across contexts, and then apply them in back-and-forth
+  conversation with an AI tutor that gives real-time pronunciation and fluency
+  feedback. Speak teaches Spanish, French, Korean, Japanese, Italian, German,
+  and Chinese, plus English for non-English speakers, and offers B2B language
+  training for organizations across Korea, Japan, Spain, Taiwan, and France.
+  The company is backed by Accel and the OpenAI Startup Fund and partners with
+  OpenAI. Speak runs a production application backend at api.usespeak.com
+  (an OAuth2/OIDC issuer) but does not publish a public developer API,
+  OpenAPI specification, or SDKs; the surfaces below were discovered from the
+  company's public well-known and llms.txt endpoints.
 url: https://raw.githubusercontent.com/api-evangelist/speak/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,16 +36,66 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
-apis: []
+- Language Learning
+- Education
+- EdTech
+- Speech
+- Conversational AI
+- Mobile
+apis:
+- name: Speak API
+  description: >-
+    Production application backend for the Speak language-learning app. It is an
+    OAuth2/OIDC issuer (token endpoint at /v1/auth/token, JWKS published) serving
+    the iOS, Android, and web clients. Not documented as a public developer API;
+    identity discovery is published at the well-known endpoints below.
+  humanURL: https://www.speak.com/
+  baseURL: https://api.usespeak.com
+  properties:
+  - type: WellKnown
+    url: well-known/speak-well-known.yml
+  - type: SecurityTxt
+    url: well-known/speak-security.txt
+  - type: Authentication
+    url: authentication/speak-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1
 common:
 - type: Website
   url: https://www.speak.com/
+- type: Blog
+  url: https://www.speak.com/blog
+- type: HelpCenter
+  url: https://help.speak.com/en/
+- type: SignUp
+  url: https://app.speak.com
+- type: PrivacyPolicy
+  url: https://usespeak.notion.site/Speak-s-Privacy-Policy-29b9293ddabc48bcb1b059bc84e8f490
+- type: TermsOfService
+  url: https://usespeak.notion.site/Speak-s-Terms-of-Service-5a9643bc1e774a76afb1930abec99f39
+- type: WellKnown
+  url: well-known/speak-well-known.yml
+- type: SecurityTxt
+  url: well-known/speak-security.txt
+- type: LLMsTxt
+  url: llms/speak-llms.txt
+- type: Authentication
+  url: authentication/speak-authentication.yml
+- type: VulnerabilityDisclosure
+  url: security/speak-vulnerability-disclosure.yml
+- type: Security
+  url: security/speak-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/speak-domain-security.yml

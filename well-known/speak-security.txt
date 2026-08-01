@@ -1,0 +1,4 @@
+Contact: mailto:security@speak.com
+Expires: 2027-01-01T00:00:00z
+Preferred-Lanuguages: en
+Canonical: https://speak.com/.well-known/security.txt

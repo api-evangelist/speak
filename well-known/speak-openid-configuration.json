@@ -1,0 +1,1 @@
+{"issuer":"https://api.usespeak.com","jwks_uri":"https://api.usespeak.com/.well-known/jwks.json","token_endpoint":"https://api.usespeak.com/v1/auth/token"}
