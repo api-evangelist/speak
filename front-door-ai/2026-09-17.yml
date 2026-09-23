@@ -1,0 +1,29 @@
+# Front Door AI Index — speak — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: speak
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.speak.com
+  final_host: www.speak.com
+  ownership: own
+  owner: speak
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 36
+  host_score: 36
+  density: 13.99
+  words: 2574
+  tiers:
+    agentic: 5
+    core: 23
+    model: 8
+  ambiguous: 0
+  top_terms:
+    AI: 23
+    OpenAI: 6
+    chatbot: 4
+    ChatGPT: 2
+    conversational AI: 1
