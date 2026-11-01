@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Speak is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Speak (Speakeasy Labs, Inc.) is an AI-powered language learning application focused on spoken fluency rather than grammar drills or vocabulary memorization. Its proprietary "Speak Method" has learners study real phrases, practice them across contexts, and then apply them in back-and-forth conversation with an AI tutor that gives real-time pronunciation and fluency feedback. Speak teaches Spanish, French, Korean, Japanese, Italian, German, and Chinese, plus English for non-English speakers, and offers B2B language training for organizations across Korea, Japan, Spain, Taiwan, and France. The company is backed by Accel and the OpenAI Startup Fund and partners with OpenAI. Speak runs a production application backend at api.usespeak.com (an OAuth2/OIDC issuer) but does not publish a public developer API, OpenAPI specification, or SDKs; the surfaces below were discovered from the company's public well-known and llms.txt endpoints.
 
-Backed by: accel — https://www.speak.com/
+**Areas:** Company · Artificial Intelligence · Language Learning · Education · EdTech · Speech · Conversational AI · Mobile
+
+## Speak on APIs.io
+
+Everything profiled for Speak is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/speak/](https://apis.io/providers/speak/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Speak API](https://apis.io/apis/speak/speak-api/) — Production application backend for the Speak language-learning app. It is an OAuth2/OIDC issuer (token endpoint at /v1/auth/token, JWKS published) serving…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Speak Authentication](https://apis.io/security/speak/speak-authentication/)
+- [Speak Domain Security](https://apis.io/security/speak/speak-domain-security/)
+- [Speak Vulnerability Disclosure](https://apis.io/security/speak/speak-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.speak.com/)
+- [Sign up](https://app.speak.com)
+- [Blog](https://www.speak.com/blog)
+- [Terms of service](https://usespeak.notion.site/Speak-s-Terms-of-Service-5a9643bc1e774a76afb1930abec99f39)
+- [Privacy policy](https://usespeak.notion.site/Speak-s-Privacy-Policy-29b9293ddabc48bcb1b059bc84e8f490)
+
+## API Evangelist rating
+
+**Kin Score 16.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 15.8 |
+
+**Agent readiness 6.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/speak/](https://apis.io/providers/speak/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Speak: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/speak/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
